@@ -16,5 +16,11 @@ namespace RestaurantRater.Controllers
         {
             return View(_db.Restaurants.ToList());
         }
+
+        // GET: Restaurant/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }
